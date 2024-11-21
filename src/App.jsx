@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import Header from "./components/Header";
+import Header from "./components/header";
 import Login from './pages/Login';
 import SignUp from "./pages/SignUp";
-import AuthHeader from "./components/AuthHeader";
+import AuthHeader from "./components/authHeader";
+import Contact from "./pages/contact";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function AppContent() {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signUp" element={<SignUp />} />
+          <Route path="/contact" element={<Contact/>}></Route>
         </Routes>
       </main>
     </>

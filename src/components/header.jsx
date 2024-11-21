@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <header className="flex justify-between p-5 cursor-pointer ">
-      <h1 className="font-bold text-3xl tracking-wider">
+      <h1 className="font-bold text-3xl tracking-wider text-green-600">
       <NavLink to="/">  Doct<span className="text-white bg-green-500 px-2 rounded">or</span></NavLink>
       </h1>
       <nav className="">
@@ -13,7 +13,7 @@ const Header = () => {
              <NavLink to="/">About</NavLink>
              </li>
          <li>
-            <NavLink to="/">Need help?</NavLink>
+            <NavLink to="/contact">Need help?</NavLink>
          </li>
 
           <li className="bg-green-500 text-white px-4 py-2 rounded">

@@ -25,7 +25,7 @@ const Login = () => {
              transition-all bg-slate-100 h-12 outline-none"
         />
 
-        <button type="submit" className="bg-primary-color hover:bg-secondary-color text-white font-bold text-xl py-2">Login</button>
+        <button type="submit" className="bg-primary-color hover:bg-secondary-color text-white font-bold text-xl py-2 rounded-md">Login</button>
         <div className="cursor-pointer">
             <small>Already have an account? 
                 <NavLink to='/signUp'>sign up</NavLink> 

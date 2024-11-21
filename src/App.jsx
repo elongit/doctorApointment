@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Header from "./components/header";
+import Footer from "./components/footer";
 import Login from './pages/Login';
 import SignUp from "./pages/SignUp";
 import AuthHeader from "./components/authHeader";
@@ -26,13 +27,14 @@ function AppContent() {
         <Header />
       )}
       
-      <main className="p-3 md:p-5">
+      <main className="p-3 md:p-5 ">
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/contact" element={<Contact/>}></Route>
         </Routes>
       </main>
+      <Footer/>
     </>
   );
 }

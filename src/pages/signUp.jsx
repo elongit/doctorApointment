@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 
 const SignUp = () => {
   return (
-    <fieldset className="lg:w-2/4 m-auto mt-10 p-2 md:p-5 md:shadow">
-      <legend className="text-2xl font-bold text-green-500 drop-shadow">Create new account</legend>
+    <fieldset className="lg:w-2/4 m-auto mt-10 p-2 md:p-5 md:shadow-md bg-white">
+      <legend className="text-2xl font-bold text-primary-color drop-shadow">Create new account</legend>
       <form  className=" flex flex-col  gap-4">
       <label htmlFor="fname" className="text-[17px] font-semibold ">Full name*</label>
         <input
@@ -11,7 +11,7 @@ const SignUp = () => {
           name="fname"
           id="fname"
           placeholder="Entre your username"
-          className="p-2 border-2 border-white hover:border-green-500 transition-all bg-slate-100 h-12 
+          className="p-2 border-2 border-white hover:border-primary-color transition-all bg-slate-100 h-12 
           outline-none "
         />
 
@@ -21,7 +21,7 @@ const SignUp = () => {
           name="username"
           id="username"
           placeholder="Entre your username"
-          className="p-2 border-2 border-white hover:border-green-500 transition-all bg-slate-100 h-12 
+          className="p-2 border-2 border-white hover:border-primary-color transition-all bg-slate-100 h-12 
           outline-none "
         />
 
@@ -31,7 +31,7 @@ const SignUp = () => {
           name="email"
           id="email"
           placeholder="Entre your email"
-          className="p-2 border-2 border-white hover:border-green-500 transition-all bg-slate-100 h-12 
+          className="p-2 border-2 border-white hover:border-primary-color transition-all bg-slate-100 h-12 
           outline-none "
         />
 
@@ -41,7 +41,7 @@ const SignUp = () => {
           name="pass"
           id="pass"
           placeholder="Entre your password"
-            className="p-2 border-2 border-white hover:border-green-500
+            className="p-2 border-2 border-white hover:border-primary-color
              transition-all bg-slate-100 h-12 outline-none"
         />
 
@@ -51,11 +51,11 @@ const SignUp = () => {
           name="Cpass"
           id="Cpass"
           placeholder="Confirme your password"
-            className="p-2 border-2 border-white hover:border-green-500
+            className="p-2 border-2 border-white hover:border-primary-color
              transition-all bg-slate-100 h-12 outline-none"
         />
 
-        <button type="submit" className="bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-2">Login</button>
+        <button type="submit" className="bg-primary-color hover:bg-secondary-color text-white font-bold text-xl py-2">Login</button>
         <div className="cursor-pointer">
             <small>Already have an account? <NavLink to='/login'>sign In</NavLink> </small>
         </div>

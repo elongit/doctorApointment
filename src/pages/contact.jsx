@@ -48,7 +48,7 @@ const Contact = () => {
 
 
 
-        <button type="submit" className="bg-primary-color hover:bg-secondary-color text-white font-bold text-xl py-2">Send your message</button>
+        <button type="submit" className="bg-primary-color hover:bg-secondary-color text-white font-bold text-xl rounded-md py-2">Send your message</button>
 
       </form>
     </fieldset>
